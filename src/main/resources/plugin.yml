@@ -1,0 +1,12 @@
+name: RagnarokDamageFix
+version: '${project.version}'
+main: net.ragnaroknetwork.ragnarokdamagefix.RagnarokDamageFix
+api-version: 1.8.8
+authors: [ Bloedarend ]
+description: Fix damage for sharpness
+commands:
+  ragnarokdamagefix:
+    description: Reload the plugin
+    usage: /ragnarokdamagefix help
+    permission: ragnarokdamagefix.admin
+    aliases: [rdf]
